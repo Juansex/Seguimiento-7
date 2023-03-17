@@ -28,7 +28,7 @@ public class IngredientTest {
             System.out.println(e);
         }
     }
-
+    @Test
     public void testAddWeight2(){
         setupStage1();
         try {
@@ -39,7 +39,7 @@ public class IngredientTest {
             assertEquals(245, ingredient.getWeight());
         }
     }
-
+    @Test
     public void testRemoveWeight(){
         setupStage1();
         try {
@@ -51,6 +51,7 @@ public class IngredientTest {
             System.out.println(e);
         }
     }
+    @Test
     public void testRemoveWeight2(){
         setupStage1();
         try {
